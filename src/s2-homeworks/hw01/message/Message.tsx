@@ -1,9 +1,9 @@
 import React from 'react'
 import s from './Message.module.css'
 import {Message0Type} from "../HW1";
-<style>
-    @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-</style>
+// <style>
+//     @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+// </style>
 // нужно создать правильный тип вместо any
 export type MessagePropsType = {
     message: Message0Type
@@ -18,7 +18,7 @@ const Message = (props: MessagePropsType) => {
             {/*<div className={s.angle} />*/}
 
             <div className={s.imageAndText}>
-                <img src={props.message.user.avatar}
+                <img src={props.message.user.avatar} alt={''}
                     id={'hw1-avatar-' + props.message.id}
                 />
                 <div className={s.text}>

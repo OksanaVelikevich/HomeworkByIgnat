@@ -1,13 +1,13 @@
 .sendForm {
-/*    position: absolute;*/
-/*    width: 976px;*/
-/*    height: 40px;*/
-/*    left: 70px;*/
-/*    top: 432px;*/
+    /*position: absolute;*/
+    /*width: 976px;*/
+    /*height: 40px;*/
+    /*left: 70px;*/
+    /*top: 432px;*/
 
-/*    background: #F5F7FB;*/
-/*    box-shadow: 0 5px 20px rgba(29, 33, 38, 0.03), 0 1px 2px rgba(29, 33, 38, 0.1);*/
-/*    border-radius: 20px;*/
+    /*background: #F5F7FB;*/
+    /*box-shadow: 0 5px 20px rgba(29, 33, 38, 0.03), 0 1px 2px rgba(29, 33, 38, 0.1);*/
+    /*border-radius: 20px;*/
 }
 
 .textarea {
@@ -24,32 +24,31 @@
     /*line-height: 17px;*/
 
 
+    color: rgba(0, 0, 0, 0.6);
 
-    /*color: rgba(0, 0, 0, 0.6);*/
+    opacity: 0.9;
+    position: relative;
+        width: 976px;
+        height: 40px;
+        left: 70px;
+        /*top: 432px;*/
 
-    /*opacity: 0.9;*/
-    position: absolute;
-    width: 976px;
-    height: 40px;
-    left: 70px;
-    top: 432px;
-
-    background: #F5F7FB;
-    box-shadow: 0 5px 20px rgba(29, 33, 38, 0.03), 0 1px 2px rgba(29, 33, 38, 0.1);
-    border-radius: 20px;
+        background: #F5F7FB;
+        box-shadow: 0 5px 20px rgba(29, 33, 38, 0.03), 0 1px 2px rgba(29, 33, 38, 0.1);
+        border-radius: 20px;
 }
 
 
 .button {
-    position: absolute;
-    width: 120px;
-    height: 40px;
-    left: 1090px;
-    top: 432px;
-    margin: 5px;
+    position: relative;
+        width: 120px;
+        height: 40px;
+        left: 100px;
+        /*top: 432px;*/
+        margin: 5px;
 
-    background: #0066CC;
-    border-radius: 20px;
+        background: #0066CC;
+        border-radius: 20px;
 }
 
 .button:hover {

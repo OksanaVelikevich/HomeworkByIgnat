@@ -15,20 +15,20 @@
 
 .imageAndText img {
 
-    position: absolute;
+    position: relative;
     width: 48px;
     height: 48px;
     left: 1162px;
-    top: 204px;
+    top: 50px;
 
 }
 
 .text {
-    position: absolute;
+    position: relative;
     width: 400px;
     height: 60px;
     left: 745px;
-    top: 192px;
+    /*top: 24px;*/
 
     border-radius: 5px 5px 0 5px;
     background: #0066CC;
@@ -61,8 +61,8 @@
 
     width: 300px;
     height: 20px;
-    left: 648px;
-    top: 224px;
+    left: 635px;
+    top: 24px;
     margin: 5px 15px 8px 45px;
 
     font-family: 'Montserrat', sans-serif;
@@ -75,11 +75,11 @@
 }
 
 .time {
-    position: absolute;
+    position: relative;
     width: 26px;
     height: 12px;
     left: 1173px;
-    top: 257px;
+    /*top: 89px;*/
 
     font-family: 'Montserrat', sans-serif;
     font-style: normal;

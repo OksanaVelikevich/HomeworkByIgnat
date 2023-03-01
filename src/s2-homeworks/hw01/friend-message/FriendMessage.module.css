@@ -13,20 +13,20 @@
 }
 
 .friendImageAndText img {
-    position: absolute;
+    position: relative;
     width: 48px;
     height: 48px;
     left: 70px;
-    top: 311px;
+    top: 60px;
 
 }
 
 .friendText {
-    position: absolute;
+    position: relative;
     width: 414px;
     height: 60px;
     left: 130px;
-    top: 299px;
+    /*top: 299px;*/
 
     border-radius: 5px 5px 5px 0;
     background: #F5F7FB;
@@ -73,11 +73,11 @@
 }
 
 .friendTime {
-    position: absolute;
+    position: relative;
     width: 29px;
     height: 12px;
     left: 80px;
-    top: 364px;
+    /*top: 364px;*/
 
 
     font-family: 'Montserrat', sans-serif;

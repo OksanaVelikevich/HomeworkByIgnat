@@ -1,6 +1,6 @@
 {
   "name": "hws2",
-  "homepage": "http://IgnatZakalinsky.github.io/hws2",
+  "homepage": "https://github.com/OksanaVelikevich/HomeworkByIgnat",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -36,13 +36,9 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
+
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
+
   "browserslist": {
     "production": [
       ">0.2%",
@@ -54,5 +50,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+
   }
+
 }
+
