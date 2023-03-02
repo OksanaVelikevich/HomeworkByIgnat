@@ -1,6 +1,6 @@
 {
   "name": "hws2",
-  "homepage": "https://github.com/OksanaVelikevich/HomeworkByIgnat",
+  "homepage": "https://OksanaVelikevich.github.io/HomeworkByIgnat",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -17,7 +17,7 @@
     "@types/uuid": "8.3.4",
     "axios": "0.27.2",
     "eslint": "8.22.0",
-    "gh-pages": "4.0.0",
+    "gh-pages": "^5.0.0",
     "install": "0.13.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
@@ -35,10 +35,10 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-
   },
-
   "browserslist": {
     "production": [
       ">0.2%",
@@ -50,8 +50,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-
   }
-
 }
-
